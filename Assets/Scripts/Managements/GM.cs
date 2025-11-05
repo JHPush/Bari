@@ -17,7 +17,7 @@ public class GM : Singleton<GM>
         Debug.Log("Game Session Start @: " + DateTime.Now);
     }
 
-    void Ouit()
+    void OnApplicationQuit()
     {
         _sessionEndTime = DateTime.Now;
 
